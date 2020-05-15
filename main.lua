@@ -1,6 +1,7 @@
 -- (1) basic rectangle drawing
 -- (2) added player movement with love.keyboard.isDown('key') in love.update(dt)
 --     player / enemy x position are now variables
+-- (3) enemy is following player
 
 WINDOW_WIDTH = love.graphics.getWidth()
 WINDOW_HEIGHT = love.graphics.getHeight()
@@ -12,12 +13,21 @@ end
 
 function love.update(dt)
     dx = 300 * dt
+    -- enemy dx
+    edx = 150 * dt
 
     -- player movement
     if love.keyboard.isDown('left') then
         playerX = playerX - dx
     elseif love.keyboard.isDown('right') then
         playerX = playerX + dx
+    end
+
+    -- enemy AI - get close to the player
+    if playerX < enemyX - 100 then
+        enemyX = enemyX - edx
+    elseif playerX > enemyX + 100 then
+        enemyX = enemyX + edx
     end
 end
 
