@@ -172,7 +172,3 @@ M11: Polish - 10 days
 53 days
 
 Finish:03/07/20
-<<<<<<< HEAD
-# CS50x2020-final-project
-=======
->>>>>>> 3446a8938dbc7078a11b93ac64a4ba698fa1d980
