@@ -108,6 +108,7 @@ Should I add an invincible roll??
 Secondary item: torch or shield??
 Choose one HUD variant
 Is the boss a human or creature?
+"Marketing is essential for an indie game developer!!!" sais the guy with the fox game
 
 
 9. TECHNICAL DETAILS
