@@ -171,5 +171,3 @@ M10: Debug - 2 days
 M11: Polish - 10 days
 
 53 days
-
-Finish:03/07/20
